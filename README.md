@@ -23,3 +23,23 @@ Tractem de modelar una base de dades similar a la plataforma YouTube, pensada pe
 - Autor, del qual penja un document de playlists, amb els videos que conté.
 - Tags
 - Comentaris: de la pantalla s'intueix que els comentaris poden tenir rèplica, per tant introduïm un concepte de fil de conversa (thread), que agrupi tots els comentaris d'una mateixa conversa
+
+# Requisits tècnics
+
+Per a dissenyar aquests models, s'ha fet servir el Moon Modeler versió 9.0.0. Es pot descarregar des del vincle https://www.datensen.com/data-modeling/moon-modeler-for-databases.html, amb una versió gratuita de prova de 14 dies.
+
+## Instal·lació: 
+1. Clonar el repositorio de Github
+git clone https://github.com/g-lemoing/S2_Task3_Estructura_Dades_MongoDB.git
+2. Abrir el Moon Modeler y abrir el proyecto correspondiente (.dmm)
+
+## Contribuciones:
+1. Crear un fork del repositorio: 
+2. Clonar el repositorio hacia el directorio local marcado por git bash
+ git clone https://github.com/YOUR-USERNAME/S2_Task3_Estructura_Dades_MongoDB.git
+3. Crear una rama
+git branch BRANCH-NAME
+git checkout BRANCH-NAME
+4. Realizar cambios o comentarios, y hacer un commit: git commit -m 'mensaje cambios'
+5. Subir cambios a tu nueva rama: git push origin BRANCH-NAME
+6. Hacer un pull request
