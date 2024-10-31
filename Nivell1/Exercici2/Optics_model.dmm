@@ -65,7 +65,7 @@
 					"param": "",
 					"pk": false,
 					"nn": false,
-					"list": false,
+					"list": true,
 					"fk": false,
 					"comment": "",
 					"data": "",
@@ -896,7 +896,7 @@
 		"def_collation": "",
 		"def_others": "",
 		"connectionVersion": "",
-		"lastSaved": 1730371537231,
+		"lastSaved": 1730371682683,
 		"modelPdfReportPath": "C:\\Users\\Gwénaël\\OneDrive\\Projects\\Sprint2\\Sprint2_Task3\\Nivell1\\Exercici2\\Optics_glasses.pdf"
 	},
 	"otherObjects": {},

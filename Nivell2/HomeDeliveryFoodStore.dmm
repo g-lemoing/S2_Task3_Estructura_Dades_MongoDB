@@ -798,6 +798,23 @@
 					"pattern": false,
 					"estimatedSize": "",
 					"any": ""
+				},
+				{
+					"id": "4296c85a-8d85-4270-88d9-a209001e5a07",
+					"name": "unit_price",
+					"datatype": "double",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"list": false,
+					"fk": false,
+					"comment": "",
+					"data": "",
+					"enum": "",
+					"validation": "",
+					"pattern": false,
+					"estimatedSize": "",
+					"any": ""
 				}
 			],
 			"relations": [],
@@ -1262,7 +1279,7 @@
 		"def_collation": "",
 		"def_others": "",
 		"connectionVersion": "",
-		"lastSaved": 1729702740389,
+		"lastSaved": 1730372039186,
 		"modelPdfReportPath": "C:\\Users\\Gwénaël\\OneDrive\\Projects\\Sprint2\\Sprint2_Task3\\Nivell2\\HomeDeliveryFood.pdf"
 	},
 	"otherObjects": {},
@@ -1283,7 +1300,7 @@
 					"referencedItemId": "88db921f-10f0-4920-94de-33b7f41486d9",
 					"x": 45,
 					"y": 302,
-					"gHeight": 945,
+					"gHeight": 963,
 					"gWidth": 205,
 					"color": "#ffffff",
 					"background": "#03a9f4",
