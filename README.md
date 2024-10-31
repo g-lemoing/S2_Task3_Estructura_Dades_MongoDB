@@ -6,12 +6,16 @@ En aquesta tasca elaborarem models en MongoDB a partir dels enunciats i enfocats
 ## Nivell 1 - Exercici 1
 Creem un model de dades per a una òptica que permet mostrar eficientment informació d'un client i de les seves compres d'ulleres, així com les seves característiques.
 Per això, partim d'una col·lecció principal de client i relacionant la informació de compres i d'ulleres de forma incrustada.
+En l'esquema representem també la informació del proveïdor, però no és necessària per mostrar la pantalla sol·licitada en l'enunciat.
 
 ## Nivell 1 - Exercici 2
-Ara adaptem el model de dades anterior per facilitar un altre punt de vista centrat en el model d'ulleres (col·lecció) i relacionant els clients que han comprat aquest model de forma incrustada.
+Ara adaptem el model de dades anterior per facilitar un altre punt de vista centrat en el model d'ulleres (col·lecció) i relacionant els clients que han comprat aquest model de forma incrustada. Relacionem la informació del proveïdor directament amb les ulleres per poder mostrar-la en un clic a petició de l'usuari.
+De la mateixa manera, tenim la informació del client relacionada amb cada compra per poder-la mostrar si és necessari.
 
 ## Nivell 2 - Exercici 1
-En aquest exercici modelem el negoci d'una botiga de menjar amb servei de recollida o de lliurament a domicili, amb la finalitat de visualitzar les dades d'una comanda d'una botiga determinada amb els seus detalls de línia, i també el client relacionat i el bloc d'informació de lliurament a domicili. Aquest darrer només s'ha de mostrar si la comanda és de tipus "entrega a domicili". La col·lecció principal és la botiga de la qual pengen l'entitat comanda, i segon nivell la informació relacionada:
+En aquest exercici modelem el negoci d'una botiga de menjar amb servei de recollida o de lliurament a domicili, amb la finalitat de visualitzar les dades d'una comanda d'una botiga determinada amb els seus detalls de línia, i també el client relacionat i el bloc d'informació de lliurament a domicili. Aquest darrer només s'ha de mostrar si la comanda és de tipus "entrega a domicili". 
+En aquest cas, hem optat per definir la botiga com a la col·lecció principal, ja que la pantalla mostra primer el nom d'aquesta. Però amb una altra interpretació, també podríem considerar correcte establir la comanda com a col·lecció principal, relacionant-hi la botiga.
+De la botiga doncs, penja l'entitat comanda, i segon nivell la informació relacionada:
 - Detalls de la comanda i en cascada, la informació dels productes demanats
 - Dades del client
 - Informació de l'entrega a domicili si correspon
